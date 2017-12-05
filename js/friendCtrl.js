@@ -5,9 +5,10 @@ angular.module("myApp").controller("friendCtrl", function($scope){
     state: ""
   };
   $scope.sorts= {
-    property: "name",
+    property: "",
     direction: "+"
   };
+  $scope.filter = {}
 })
 
 
