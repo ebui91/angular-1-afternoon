@@ -8,7 +8,13 @@ angular.module("myApp").controller("friendCtrl", function($scope){
     property: "",
     direction: "+"
   };
-  $scope.filter = {}
+  $scope.sortOptions= {
+    name: "name",
+    pic_square: "pic_square",
+    location: "location",
+    status: "status",
+    friend_count: "friend_count"
+  }
 })
 
 
